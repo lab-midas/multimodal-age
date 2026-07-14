@@ -1,0 +1,14 @@
+Trainer.ckpt_interval = 1
+Trainer.ckpt_interval_ft = 1
+
+load_train_data.name = "biobank"
+load_test_data.name = "biobank"
+
+BioBankDataset.tabular_data_path = <path to tabular data>
+BioBankDataset.label_csv_path = <path to age labels>
+
+load_model.checkpoint_path = <path to checkpoints>
+
+get_<organ>_paths.image_file = <path to h5 image file>
+get_<organ>_paths.key_csv_path_training = <path to training ids>
+get_<organ>_paths.key_csv_path_test = <path to testing ids>

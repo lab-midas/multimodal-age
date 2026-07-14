@@ -1,0 +1,17 @@
+__pycache__/
+evaluation/
+experiments/
+input_pipeline/__pycache__/
+models/__pycache__/
+utils/__pycache__/
+wandb/
+Jobs
+.vscode/
+configs/config.gin
+configs/single_run_multimodal_config.json
+configs/single_run_tabular_config.json
+configs/single_run_image_config.json
+configs/sweep_multimodal_config.json
+configs/sweep_unimodal_config.json
+
+main.sbatch
